@@ -1,0 +1,14 @@
+# Configuration for bag_recorder.
+# Edit by hand, or regenerate the `topics` list with:
+#   ros2 run bag_recorder select_topics
+
+# Directory where recordings are saved. Each run creates its own
+# timestamped subfolder here.
+output_dir: "~/bags"
+
+# Split the bag into a new file once the current one reaches this many
+# gigabytes. Set to 0 to disable splitting.
+split_size_gb: 5
+
+# Topics to record.
+topics: []

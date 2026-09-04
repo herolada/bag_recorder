@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package format="3">
+  <name>bag_recorder</name>
+  <version>1.0.0</version>
+  <description>Config-driven ros2 bag recording plus a GUI utility to pick topics.</description>
+  <author email="herold.adam7@gmail.com">Adam Herold</author>
+  <maintainer email="herold.adam7@gmail.com">Adam Herold</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>python3-tk</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>ros2bag</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
