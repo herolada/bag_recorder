@@ -1,0 +1,21 @@
+output_dir: /media/data/bags
+split_size_gb: 5.0
+topics:
+- /flir_boson/camera_info
+- /flir_boson/image_raw/compressed
+- /front/camera/camera_info
+- /front/camera/image_raw/compressed
+- /os_dome/imu
+- /os_dome/metadata
+- /os_dome/points
+- /plantpix/camera_info
+- /plantpix/camera_status
+- /plantpix/ndvi
+- /plantpix/ndvi2
+- /plantpix/nir
+- /plantpix/rgb
+- /rear/camera/camera_info
+- /rear/camera/image_raw/compressed
+- /terrain_map
+- /virtual_bumper                 
+- /virtual_bumper/box  
